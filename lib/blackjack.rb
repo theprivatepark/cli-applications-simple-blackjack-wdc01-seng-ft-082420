@@ -34,10 +34,10 @@ end
 
 def hit?(card_total)
   prompt_user
-  user_input = get_user_input
-  if user_input == 'h'
+  input = get_user_input
+  if gets.chomp == 'h'
     card_total += deal_card
-  elsif user_input == 's'
+  elsif gets.chomp == 's'
     card_total
   else
     invalid_command
@@ -57,10 +57,7 @@ end
 #####################################################
 
 def runner
- welcome 
- card_total = initial_round
- hit?(card_total)
- binding.pry
+
 end
     
 runner
