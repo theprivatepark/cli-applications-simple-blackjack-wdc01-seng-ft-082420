@@ -59,6 +59,7 @@ end
 def runner
   weclome 
   total = initial_round
+  total
 
 
 end
