@@ -59,7 +59,7 @@ end
 def runner
   weclome 
   total = initial_round
-  until total > 21
+
   binding.pry
 
 end
