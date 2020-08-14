@@ -60,8 +60,9 @@ def runner
   weclome 
   total = initial_round
 
-  binding.pry
 
 end
+binding.pry
+runner 
     
 
